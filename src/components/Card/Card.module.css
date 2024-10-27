@@ -1,0 +1,96 @@
+main {
+  width: 327px;
+
+  @media only screen and (min-width: 600px) {
+    grid-area: card;
+    width: 255px;
+  }
+}
+
+.section {
+}
+
+.illustration {
+  border-radius: var(--sp-xs);
+  overflow: hidden;
+}
+.icon {
+  z-index: -1;
+  transform: translate(14rem, -10px);
+  height: 80px;
+
+  @media only screen and (min-width: 600px) {
+    transform: translate(10rem, -10px);
+  }
+}
+
+.content {
+  position: relative;
+  margin-top: -44px;
+  height: 122px;
+  border-radius: var(--sp-xs);
+  background-color: var(--clr-dark-blue);
+
+  @media only screen and (min-width: 600px) {
+    height: 199px;
+  }
+}
+
+.content .container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "title empty dots"
+    "main sub sub";
+  color: white;
+
+  @media only screen and (min-width: 600px) {
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "title dots"
+      "main main"
+      "sub sub";
+  }
+}
+.content h1 {
+  margin: 1.5rem 1rem 0.5rem 1.5rem;
+  grid-area: title;
+  font-size: var(--fs--1);
+  font-weight: 600;
+
+
+}
+.content img {
+  margin: 2rem 1.5rem 0rem 1rem;
+  grid-area: dots;
+  justify-self: end;
+
+  @media only screen and (min-width: 600px) {
+    justify-self: start;
+  }
+}
+.content .main {
+  margin: 0.5rem 1rem 2rem 1.5rem;
+  grid-area: main;
+  font-size: var(--fs-3);
+  font-weight: 200;
+
+  @media only screen and (min-width: 600px) {
+    margin: 1.5rem 1rem 0rem 1.5rem;
+    font-size: 3.25rem;
+  }
+}
+.content .sub {
+  margin: 1rem 1.5rem 2rem 1.5rem;
+  grid-area: sub;
+  font-size: var(--fs--3);
+  justify-self: end;
+  font-weight: 200;
+  color: #bbc0ff;
+
+  @media only screen and (min-width: 600px) {
+    justify-self: start;
+  }
+}

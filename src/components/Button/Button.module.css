@@ -1,0 +1,15 @@
+.frame{
+ 
+}
+.frame button {
+    background-color:#1C204B;
+    color: #7078C9;
+    border-style: hidden;
+    font-size: var(--fs-0);
+    font-weight: 200;
+}
+
+.frame button.active{
+    color: white;
+    font-weight: 400;
+}

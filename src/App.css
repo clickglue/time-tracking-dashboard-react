@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #0e1323;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  @media only screen and (min-width: 600px) {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

@@ -1,0 +1,62 @@
+main {
+  width: 327px;
+
+  @media only screen and (min-width: 600px) {
+    grid-area: owner;
+    width: 255px;
+  }
+}
+
+.profile{
+    position: relative;
+    z-index: 1;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: var(--sp-xs);
+    overflow: hidden;
+    background-color: #5747EA;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "pict title"
+    "pict name";
+    align-items: center;
+}
+
+.profile img{
+    grid-area: pict;
+    justify-self: center;
+    width: 64px;
+    height: 64px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 50%;
+}
+.profile h1{
+    margin-bottom:0.25rem;
+    grid-area: name;
+    color: white;
+    font-size: var(--fs-1);
+    font-weight: 200;
+}
+.profile h2{
+    margin-top: 0.5rem;
+    grid-area: title;
+    color: #BBC0FF;
+    font-size: var(--fs--1);
+    font-weight: 200;
+}
+
+.selector{
+    border-radius: var(--sp-xs);
+    overflow: hidden;
+    margin-top: -60px;
+    height: 110px;
+    background-color: #1C204B;
+
+}
+.selector .content {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}

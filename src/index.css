@@ -1,0 +1,112 @@
+/* rubik-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/rubik-v28-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/rubik-v28-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/rubik-v28-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  /*fonts*/
+  font-family: "Rubik";
+
+  --fs--2: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
+  --fs--1: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);
+  --fs-0: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --fs-1: clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
+  --fs-2: clamp(1.62rem, 1.5041rem + 0.5793vw, 1.9531rem);
+  --fs-3: clamp(1.944rem, 1.771rem + 0.8651vw, 2.4414rem);
+  --fs-4: clamp(2.3328rem, 2.0827rem + 1.2504vw, 3.0518rem);
+
+  /*space*/
+  --sp-2xs: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+  --sp-xs: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+  --sp-s: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --sp-m: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+  --sp-l: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+  --sp-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+  --sp-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
+
+  /*colors*/
+  --clr-blue: hsl(246, 80%, 60%);
+  --clr-light-red-work: hsl(15, 100%, 70%);
+  --clr-soft-blue-play: hsl(195, 74%, 62%);
+  --clr-light-red-study: hsl(348, 100%, 68%);
+  --clr-lime-green-exercise: hsl(145, 58%, 55%);
+  --clr-violet-social: hsl(264, 64%, 52%);
+  --clr-soft-orange-selfcare: hsl(43, 84%, 65%);
+  --clr-very-dark-blue: hsl(226, 43%, 10%);
+  --clr-dark-blue: hsl(235, 46%, 20%);
+  --clr-desaturated-blue: hsl(235, 45%, 61%);
+  --clr-pale-blue: hsl(236, 100%, 87%);
+
+  /*breakpoints*/
+  --bp-mobile: 375px;
+  --bp-desktop: 1440px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

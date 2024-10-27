@@ -1,13 +1,8 @@
-main {
+section {
   width: 327px;
-
   @media only screen and (min-width: 600px) {
-    grid-area: card;
     width: 255px;
   }
-}
-
-.section {
 }
 
 .illustration {

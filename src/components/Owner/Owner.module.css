@@ -1,4 +1,4 @@
-main {
+section {
   width: 327px;
 
   @media only screen and (min-width: 600px) {
@@ -20,6 +20,14 @@ main {
     grid-template-areas: "pict title"
     "pict name";
     align-items: center;
+
+    @media only screen and (min-width: 600px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "pict"
+        "title" "name";
+        align-items: center;
+      }
 }
 
 .profile img{
@@ -50,9 +58,10 @@ main {
 .selector{
     border-radius: var(--sp-xs);
     overflow: hidden;
-    margin-top: -60px;
+    margin-top: -40px;
     height: 110px;
     background-color: #1C204B;
+    width: 100%;
 
 }
 .selector .content {

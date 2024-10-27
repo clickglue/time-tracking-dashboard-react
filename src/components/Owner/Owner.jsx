@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 function Owner({timeframe, setTimeframe}) {
 
   return (
-    <main>
+    <section>
       <div className={styles.profile}>
         <img src="/images/image-jeremy.png" alt="Picture of the owner" />
         <h2>Report for</h2>
@@ -18,7 +18,7 @@ function Owner({timeframe, setTimeframe}) {
           <Button name="Monthly" timeframe={timeframe} setTimeframe={setTimeframe}></Button>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 

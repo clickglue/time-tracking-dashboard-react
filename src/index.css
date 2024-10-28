@@ -60,7 +60,11 @@
   /*breakpoints*/
   --bp-mobile: 375px;
   --bp-desktop: 1440px;
+
+background-color: #0e1323;
+
 }
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126

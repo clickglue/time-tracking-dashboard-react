@@ -6,7 +6,13 @@
     color: #7078C9;
     border-style: hidden;
     font-size: var(--fs-0);
-    font-weight: 200;
+    font-weight: 200;    
+}
+
+.frame button:hover{
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .frame button.active{

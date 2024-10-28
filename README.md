@@ -18,12 +18,12 @@ See hover states for all interactive elements on the page
 
 ### Links
 
-- Solution URL: [Code on Github]()
-- Live Site URL: [Live site on Github Pages]()
+- Solution URL: [Code on Github](https://github.com/clickglue/time-tracking-dashboard-react)
+- Live Site URL: [Live site on Github Pages](https://clickglue.github.io/time-tracking-dashboard-react/)
 
 ## My process
 
-time estimate: 8 hours
+time estimate: 16 hours
 
 My workflow:
 
@@ -43,17 +43,13 @@ My workflow:
   - [ ] Add CSS classes with BEM notation to the sections
   - [ ] Develop CSS content for mobile. Work from elements high in the tree to elements lower in the tree.
   - [ ] CSS Content for other formats
-- [ ] JS
+- [ ] JSX
   - [ ] Build js
 - [ ] Test and iterate
-  - [ ] Add their email and submit the form
-  - [ ] See a success message with their email after successfully submitting the form
-  - [ ] See form validation messages if:
-    - [ ] The field is left empty
-    - [ ] The email address is not formatted correctly
-    - [ ] View the optimal layout for the interface depending on their device's screen size
-- [ ] See hover and focus states for all interactive elements on the page
-- [ ] Publish and solve links
+  - [ ] Visually check
+  - [ ] Check responsiveness
+  - [ ] See hover and focus states for all interactive elements on the page
+- [ ] Publish with gh-pages and solve links
 - [ ] Update README.md
 
 ### Built with
@@ -63,6 +59,7 @@ My workflow:
 - CSS custom properties
 - Utopia fluid CSS system
 - JS to fetch and integrate JSON
+- React
 
 ### What I learned
 

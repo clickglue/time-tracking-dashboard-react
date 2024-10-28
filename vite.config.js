@@ -7,4 +7,5 @@ export default defineConfig({
     open: './index.html',
   },
   plugins: [react()],
+  base:'/time-tracking-dashboard-react/'
 })

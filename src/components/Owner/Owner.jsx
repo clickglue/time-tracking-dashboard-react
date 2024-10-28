@@ -7,7 +7,7 @@ function Owner({timeframe, setTimeframe}) {
   return (
     <section>
       <div className={styles.profile}>
-        <img src="/images/image-jeremy.png" alt="Picture of the owner" />
+        <img src="./images/image-jeremy.png" alt="Picture of the owner" />
         <h2>Report for</h2>
         <h1>Jeremy Robson</h1>
       </div>

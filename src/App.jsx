@@ -13,10 +13,14 @@ function App() {
 
   return (
     <main>
+      <div>
       <Owner timeframe={timeframe} setTimeframe={setTimeframe}></Owner>
+      </div>
+      <div className="cardContainer">
       {data.map((item) => (
         <Card key={item.id} data={item} timeframe={timeframe}/>
       ))}
+      </div>
     </main>
   );
 }
